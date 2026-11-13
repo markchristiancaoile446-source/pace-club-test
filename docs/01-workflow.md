@@ -38,4 +38,7 @@ flowchart TD
 The Verifier flags a run (for example, an impossible pace). The Runner sees the flag in the inbox and appeals. The Club admin either overturns the flag (the run counts) or upholds it (the run is rejected).
 
 ## States of a run
-Tr
+Tracked → Submitted → Verified | Flagged → Under appeal → Overturned (counts) | Upheld (rejected)
+
+## What and why
+Pace Club lets runners track a run with location, speed, and distance, then submit it for a club member to verify. The verification step keeps the leaderboard trustworthy. The flag and appeal path keeps the process fair when a run looks wrong, because the runner can respond and an admin makes the final call.
